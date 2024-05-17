@@ -1,8 +1,8 @@
-import { Breadcrumb, Layout, Menu, theme } from "antd";
+import { Layout } from "antd";
 import React from "react";
 import Background from "../assets/bg.png";
-import PaginationBar from "./PaginationBar";
-import Searchbox from "./Searchbox ";
+import PaginationBar from "../ui/PaginationBar";
+import Searchbox from "../ui/Searchbox ";
 import Header from "../ui/Header";
 import SliderContent from "./SliderContent";
 import ContentPage from "../components/ContentPage";

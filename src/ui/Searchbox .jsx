@@ -7,6 +7,7 @@ export default function Searchbox() {
         <img
           src={searchIcon}
           style={{ marginLeft: "0.4rem", scale: "80%" }}
+          alt=""
         ></img>
         <input
           placeholder="Search...."
