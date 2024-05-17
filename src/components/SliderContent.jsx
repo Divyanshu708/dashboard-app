@@ -76,14 +76,12 @@ export default function SliderContent() {
 
       return item;
     });
-    console.log(updatedSliderItems);
     setItems(updatedSliderItems);
   }
 
   return (
     <Menu
       mode="inline"
-      defaultOpenKeys={["sub1"]}
       style={{
         height: "100%",
         borderRight: 0,
